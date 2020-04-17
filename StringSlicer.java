@@ -26,6 +26,7 @@ public class StringSlicer {
     
     // method for getting the input of the user using a scanner
     public static void getInput(){
+        // scanner stores user input in the array. 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a string: ");
         inputWord = scan.nextLine();
@@ -33,13 +34,16 @@ public class StringSlicer {
     
     // method for taking the array and seperating each letter on a line.
     public static void arraySlice(){
+        // for loop to seperate the strings into seperate characters in the array. 
         for (int i = 0; i < inputWord.length(); i++){
+            
+            // !!!only correclty prints the output of string characters when in the for loop
             characterNames.add(inputWord.charAt(i));
             System.out.println(inputWord.charAt(i));
 
         }
     }
-    
+    // !!!our problem is here we need to get this to print the output from the other methods. 
     public static void printOutput(){
     }
 }
