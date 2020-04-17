@@ -53,9 +53,10 @@ public class scorer {
         printAverage();
     }
     
-    // We need to get printAverage to take everything from the other methods and print each row and the average without repeating.
+    // !!!We need to get printAverage to take everything from the other methods and print each row and the average without repeating.
     public static void printAverage(){
         System.out.format("The average of row %d is %5.2f\n\n",(i+1), average);
-    // our problem is here
+    // !!!our problem is here
+    // !!!will only print properlly if in the for loop in scoreAverage
     }
 }
