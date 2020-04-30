@@ -1,2 +1,2 @@
 # IST140
-IST 140 java coding assignments
+IST 140 Java coding assignments
