@@ -1,2 +1,6 @@
-# IST140
-IST 140 Java coding assignments
+# My Personal Projects
+
+* Penn State coding assignments
+  - Java IST 140
+  
+* Personal Xcode projects and more. 
